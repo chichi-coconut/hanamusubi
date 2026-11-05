@@ -38,7 +38,7 @@ hanamusubi-site/
 
 ## 在電腦上開啟
 
-**快速試玩**：用瀏覽器開啟 `index.html`（單檔版），不用安裝套件。
+**快速試玩**：下載 ChatGPT 提供的單檔試玩版，直接以瀏覽器開啟。GitHub 版本請透過靜態網站伺服器或 GitHub Pages 使用。
 
 **建議做法**：若要測試原始多檔專案，先在 `hanamusubi-site` 資料夾執行：
 
@@ -103,7 +103,7 @@ node scripts/sync-fortunes.cjs
 node tests/smoke-test.cjs
 ```
 
-檢查資料、七種籤運、台灣時間切換、每日鎖定、刷新後保留、跨 50 天不重複、收藏及圖片分享分支。這是 **模擬 DOM 與瀏覽器 API 的邏輯測試**，不等於實際 Android、iPhone、Safari 渲染與權限驗證。
+GitHub 上的此測試檢查資料數量、ID 與籤號唯一性、七種籤運，以及日中雙語詩文與七項運勢是否完整。每日鎖定、時區、收藏、分享等功能仍需在瀏覽器中驗證；不等於實際 Android、iPhone、Safari 渲染與權限驗證。
 
 ## 資料與功能限制
 
